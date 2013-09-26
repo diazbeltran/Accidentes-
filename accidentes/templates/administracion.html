@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+{% block titulo %}Bienvenidoñ{% endblock %}
+{% block encabezado %}
+<h1 class="titulo1">Administracion</h1>
+{% endblock %}
+{% block central %}
+<!--<p> Bienvenido {{usuario.username|upper}},
+    la ultima vez que fue {{usuario.last_login}}, </p>
+<p> ere miembro desde el {{usuario.date_joined}}</p>
+-->
+
+ <ul style = "padding-left: 301px;" id="mainNav">
+        <li><a href="/admin/auth/user/add/">Ingresar Usuario</a></li>
+        <li><a href="/admin/auth/user/">Modificar Usuarios</a></li>
+        <li><a href="/admin">Administracion</a></li>
+        
+        <li><a style=  "width: 170px;" href="/admin/datos/accidente/">Modificar Accidentes</a></li>       
+    	<li><a style="margin-left: 33px;"   href="/principal">Atras</a></li>
+    </ul>
+
+
+
+<!--<iframe id = "mapa" style="border: none;" height="400" width="800" src="http://localhost:8081/geoexplorer/viewer/#maps/4"></iframe>-->
+
+
+{% endblock %}

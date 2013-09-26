@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% block titulo %}Bienvenidoñ{% endblock %}
+{% block encabezado %}
+<h1 class="titulo1">Visualizador de Accidentes de la Comuna de Concepcion</h1>
+{% endblock %}
+{% block central %}
+<!--<p> Bienvenido {{usuario.username|upper}},
+    la ultima vez que fue {{usuario.last_login}}, </p>
+<p> ere miembro desde el {{usuario.date_joined}}</p>
+-->
+
+
+<iframe id = "mapa" style="border: none;" height="500" width="1000" src="http://localhost:8081/geoexplorer/viewer/#maps/7"></iframe><br><br>	
+<span class="btn1"> <a href="/principal">Atras</a> </span>
+<span class="btn1"> <a href="/admin/datos/accidente/add/">Ingresar Accidente</a> </span>
+
+
+
+{% endblock %}

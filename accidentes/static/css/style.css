@@ -1,0 +1,106 @@
+#main {
+margin: 0 auto 0 auto;
+
+
+
+}
+
+.titulo1{
+
+	color: #323133;
+	font-family: Helvetica Neue, arial, Hervetica, sans-serif;
+	letter-spaccing: -1px;
+	text-decoration: none;
+	text-shadow: 1px 1px #fff, 0 0 #0e0e0e, 2px 3px 1px #e3e3e3;
+	text-transform: none;
+	word-spacing:  -2px;
+}
+
+#banner{
+
+	text-align: center;
+}
+#contenedor_ingresar{
+
+	text-align: center;
+}
+#formulario{ text-align: center;}
+
+#tabla_ingresa {text-align: center; margin-left: 33%}
+
+#OpenLayers_Map_10_OpenLayers_ViewPort{
+opacity: 0.5;
+
+}
+
+#mainNav {
+margin-: 0px;
+padding-: 0px;
+list-style: none;
+font: 14px Verdana;
+border-bottom: 1px dashed #000;
+overflow: hidden;
+padding-left: 350px;
+zoom: 1;
+}
+#mainNav li {
+float: left;
+width: 150px;
+margin-right: 5px;
+}
+
+#mainNav a {
+display: block;
+border: 1px dashed #000;
+border-bottom: none;
+padding: 5px;
+background-color: #EAEAEA;
+text-decoration:none;
+color: #333;
+text-align: center;
+}
+
+#mapa {
+
+	margin-left: 100px;
+}
+
+#area2 {text-align: center;
+		}
+
+
+.btn1 a {
+width: 250px;
+padding: 10px 25px 10px 25px;
+font-family: Arial;
+font-size: 16px;
+text-decoration: none; color: #ffffff;
+text-shadow: -1px -1px 2px #618926;
+background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #98ba40),color-stop(.35, #a6c250),color-stop(1, #618926));
+border: 1px solid #618926;
+border-radius: 3px; -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+.btn1 a:hover {
+text-shadow: -1px -1px 2px #465f97;
+background: -moz-linear-gradient(#245192, #1e3b73 75%, #12295d);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #245192),color-stop(.75, #1e3b73),color-stop(1, #12295d));
+border: 1px solid #0f2557;
+} 
+
+h1.dropcap {
+  font-size: 28px;
+  font-family: arial, verdana, sans-serif;
+  line-height: 28px;
+   font-family: georgia, "times new roman", times, serif;
+  font-size: 0.9em; 
+  line-height: 1.4;
+  font-size: 51px;
+  font-weight: lighter;
+  position: relative;
+  float: left;
+  line-height: 50px;
+  color: #545454;
+}
